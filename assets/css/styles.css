@@ -25,7 +25,7 @@ button, button.more{
     height: 40px;
     border-radius: 20px;
     border: none;
-    margin-top: 11vh;
+    margin-top: 7vh;
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--text-twhite);
     cursor: pointer;
@@ -37,7 +37,7 @@ button:hover, button.more:hover{
     height: 40px;
     border-radius: 20px;
     border: solid 2px var(--text-twhite);
-    margin-top:11vh;
+    margin-top: 7vh;
     font-family: 'Lexend Deca', sans-serif;
     background-color: transparent;
     color: var(--text-twhite);
@@ -97,14 +97,15 @@ h2{
     font-size: 11px; 
     text-align: center;
     margin: 10px auto;
-    
 }
 .attribution a { 
-    color: var(--main-orange); 
+    color: var(--main-orange);
+    text-decoration: underline; 
 }
-.attribution a:visited { 
-    color: var(--main-dark-cyan); 
+.attribution a:hover{ 
+    color: var(--main-dark-cyan);
 }
+
 
 
 @media screen and (max-width: 900px){

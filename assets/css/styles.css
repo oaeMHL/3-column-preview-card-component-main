@@ -15,11 +15,7 @@ body{
     font-family: 'Big Shoulders Display', sans-serif ;
     font-family: 'Lexend Deca', sans-serif ;
 }
-a{
-    text-decoration: none;
-    display: inline-block;
-}
-button, button.more{
+button{
     align-items: center;
     width: 125px;
     height: 40px;
@@ -29,8 +25,9 @@ button, button.more{
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--text-twhite);
     cursor: pointer;
+    color: var(--background-light-gray);
 }
-button:hover, button.more:hover{
+button:hover{
     align-items: center;
     color: var(--text-twhite);
     width: 125px;
@@ -40,11 +37,6 @@ button:hover, button.more:hover{
     margin-top: 7vh;
     font-family: 'Lexend Deca', sans-serif;
     background-color: transparent;
-    color: var(--text-twhite);
-}
-button a:hover{
-    color: var(--text-twhite);
-
 }
 p{
     color: var(--text-twhite);
@@ -54,14 +46,12 @@ p{
     line-height: 1.7rem;
     margin-top: 5px;
 }
-button, button.more, h2 {
-    color: var(--bakcground-light-gray);
-}
 h2{
     font-family: 'Big Shoulders Display';
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.7px;
+    color: var(--text-twhite);
 }
 
 
